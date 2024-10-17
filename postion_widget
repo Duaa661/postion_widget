@@ -1,0 +1,21 @@
+body:Container(
+        color:Colors.blueGrey,
+        width: double.infinity,
+        height: double.infinity,
+        child: Stack(
+          children:[
+            Positioned(
+              left:  11,
+              right: 41,
+              child: Container(
+                height:100,
+                width: 100,
+                color: Colors.white,
+              ),
+            )
+          ],
+        ),
+      )
+    );
+  }
+}
